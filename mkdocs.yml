@@ -99,6 +99,7 @@ nav:
       - Markdown: 新手村/markdown.md
       - LaTeX: 新手村/latex.md
       - Git & Github: 新手村/git_github.md
+      - Docker: 新手村/docker.md
   - 数学:
       - 前言: 数学/math_index.md
       - 高等数学: 数学/高等数学.md

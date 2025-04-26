@@ -8,6 +8,8 @@ comments: true
 
 推荐学习资料：
 
+[【优先看这个！】给傻子的Git教程](https://www.bilibili.com/video/BV1Hkr7YYEh8)
+
 [Git 工作流程 | 菜鸟教程](https://www.runoob.com/git/git-workflow.html)
 
 [关于 GitHub 和 Git](https://docs.github.com/zh/get-started/start-your-journey/about-github-and-git)
