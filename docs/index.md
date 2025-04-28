@@ -34,6 +34,37 @@ comments: true
 
 特别值得一提的是，很多文科背景的同学们对于CS的知识存有畏惧心理，不敢迈出第一步，不想深究技术细节。作为连接金融理论与技术实践的桥梁，金融科技专业有责任降低技术学习的门槛。这正是我们创建这个开源项目的深层意义所在。
 
+## 项目结构
+
+```
+fintech_diy_wiki/
+├── LICENSE
+├── README.md
+├── mkdocs.yml                   # 【重要】Wiki的配置文件，每次添加文章的时候要在这里加东西，详情看下边
+├── docs/
+│   ├── CNAME                    # 配置域名（不用管）
+│   ├── index.md                 # Home页面
+│   ├── javascripts/             # 不需要动
+│   │   ├── mathjax.js
+│   ├── 新手村/
+│   │   ├── starter_index.md     # (可选)建议在每一个大类下面放一个这样的“引言”，命名格式就是"{章节名}_index.md"，并且要在mkdocs.yml里的nav部分将其设置为该章节的第一篇文章
+│   │   ├── basic_cs.md
+│   │   ├── docker.md
+│   │   ├── git_github.md
+│   │   ├── git_github_img/      # 如果要插入图片，需要在同级目录下新建这样的图片文件夹整理附件
+│   │   │   ├── vscode_screenshot.png
+│   │   ├── ...
+│   ├── 数学/
+│   │   ├── math_index.md
+│   │   ├── 高等数学.md
+│   │   ├── ...
+├── overrides/                   # wiki的插件，非必要不用动
+│   ├── partials/
+│   │   ├── comments.html
+├── site/                        # 渲染出来的文件，不用管
+│   ├── ...
+```
+
 ## 如何参与贡献？
 
 建议先阅读Git&Github章节。
@@ -43,4 +74,25 @@ comments: true
 1. 直接提交PR补充或修正内容，或者通过邮件联系（775569157@qq.com）
 2. 创建Issues提出建议
 
-如果您打算参与贡献，在提交PR之前，请务必阅读[MkDocs](https://www.mkdocs.org)的说明文档、参考项目中其他markdown文件的格式、并在 [mkdocs.yml](https://github.com/PKUFlyingPig/cs-self-learning/blob/master/mkdocs.yml) 文件中添加其navigation
+如果您打算参与贡献，在提交PR之前，请先进行以下步骤：
+1. 参考项目中其他markdown文件的格式，如果有余力的话建议阅读[MkDocs](https://www.mkdocs.org)的说明文档；
+2. 在 [mkdocs.yml](https://github.com/PKUFlyingPig/cs-self-learning/blob/master/mkdocs.yml) 文件中添加您更新的内容
+
+示例：
+
+```
+...(省略之前的内容)
+
+nav:
+  - 欢迎: index.md
+  - 新手村:
+      - 基础计算机知识: 新手村/basic_cs.md
+      - Linux: 新手村/linux.md
+      - Markdown: 新手村/markdown.md
+      - ...
+  - 数学:
+      - 前言: 数学/math_index.md
+      - 高等数学: 数学/高等数学.md
+      - [标题]: [新文件的路径]            # 遵循这个格式即可
+      - ...
+```
