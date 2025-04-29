@@ -100,4 +100,4 @@ nav:
 
 ## 交流群
 
-[加入Discord](https://discord.gg/ZQE83NNq)
+[加入Discord](https://discord.gg/PyTCZVJJez)
