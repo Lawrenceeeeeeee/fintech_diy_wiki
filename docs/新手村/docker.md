@@ -33,6 +33,10 @@ Docker是非常重要的工具。当你需要部署服务的时候，用Docker�
 
 [完美解决Docker pull时报错：https://registry-1.docker.io/v2/-CSDN博客](https://blog.csdn.net/qingzhumuqingfeng/article/details/144094325)
 
+从长期来看，大部分公开的镜像站是很容易爆的。求人不如求己，可以参考这个开源项目：
+
+[Docker-Proxy](https://github.com/dqzboy/Docker-Proxy.git)
+
 # 使用教程
 
 [Docker 教程 | 菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html)
