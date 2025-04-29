@@ -75,6 +75,7 @@ fintech_diy_wiki/
 2. 创建Issues提出建议
 
 如果您打算参与贡献，在提交PR之前，请先进行以下步骤：
+
 1. 参考项目中其他markdown文件的格式，如果有余力的话建议阅读[MkDocs](https://www.mkdocs.org)的说明文档；
 2. 在 [mkdocs.yml](https://github.com/PKUFlyingPig/cs-self-learning/blob/master/mkdocs.yml) 文件中添加您更新的内容
 
@@ -96,3 +97,7 @@ nav:
       - [标题]: [新文件的路径]            # 遵循这个格式即可
       - ...
 ```
+
+## 交流群
+
+[加入Discord](https://discord.gg/ZQE83NNq)

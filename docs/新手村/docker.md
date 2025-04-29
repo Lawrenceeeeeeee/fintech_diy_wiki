@@ -127,10 +127,13 @@ Docker其实并不难，只需要知道这几个常用命令就可以了
     
     访问 `http://localhost:8080` 即可看到 Nginx 页面！
     
-2. **调试容器内部**：
+2. **通过命令行进入容器内部调试**：
     
     ```bash
     docker exec -it webserver bash
+
+    // 基于ubuntu的container一般是这么进去查看的
+    docker exec -it ubuntu /bin/bash
     ```
     
 3. **保存容器修改为新镜像**：
