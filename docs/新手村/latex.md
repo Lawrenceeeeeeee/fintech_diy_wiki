@@ -12,6 +12,10 @@ LaTeX我认为是所有搞学术的人都应该学习的排版系统。虽然说
 
 # 相关资料
 
+强烈推荐清华的这篇教程，由清华大学 TUNA 协会（清华大学学生网络与开源软件协会）提供：
+
+[如何使用LaTeX 排版论文——清华大学 TUNA 协会](https://lib.tsinghua.edu.cn/__local/E/FD/06/57F50988B7E47A6A93A4DB27896_350E75C8_124C45.pdf)
+
 [LaTeX教程 全网最容易学习的LaTeX教程。](https://www.latexstudio.net/LearnLaTeX/)
 
 用VSCode写LaTeX也很方便的，强烈建议下载一个VSCode，干啥都好使，就是一个高级文本编辑器，后续编程的时候也需要。
