@@ -8,7 +8,7 @@ comments: true
 
 推荐学习资料：
 
-- [【推荐！】100个关于Linux的常识](https://www.bilibili.com/video/BV1BMGkzcE21?vd_source=9e94008dbf76e399a164028430118348)
+- [【推荐】100个关于Linux的常识](https://www.bilibili.com/video/BV1BMGkzcE21?vd_source=9e94008dbf76e399a164028430118348)
 
 - [Linux 教程](https://www.runoob.com/linux/linux-tutorial.html)
 
