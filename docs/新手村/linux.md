@@ -7,7 +7,9 @@ comments: true
 金融科技、金融工程的同学在大二之后基本上就要开始做一些机器学习、深度学习的项目了。其中有很多项目是需要大量算力和长期稳定运行的，因此你们大概率需要租借服务器。我们学校的GPU服务器平台交流群里有很多人来问问题，但大多数都是一些简单到不能再简单的问题。这个时候，你就需要具备基础的Linux操作知识。
 
 推荐学习资料：
+
 - [【推荐！】100个关于Linux的常识](https://www.bilibili.com/video/BV1BMGkzcE21?vd_source=9e94008dbf76e399a164028430118348)
+
 - [Linux 教程](https://www.runoob.com/linux/linux-tutorial.html)
 
 ## 什么是Linux
