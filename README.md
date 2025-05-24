@@ -10,7 +10,7 @@
 
 本项目完全开源并托管于GitHub平台。您可以通过以下方式参与：
 
-1. 直接提交PR补充或修正内容，或者通过邮件联系（775569157@qq.com）
+1. 直接提交PR补充或修正内容，或者通过邮件联系（<support@fintechdiy.wiki>）
 2. 创建Issues提出建议
 
 如果您打算参与贡献，在提交PR之前，请务必阅读[MkDocs](https://www.mkdocs.org)的说明文档、参考项目中其他markdown文件的格式、并在mkdocs.yml文件中添加其navigation
